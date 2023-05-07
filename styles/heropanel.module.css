@@ -1,0 +1,42 @@
+.heroContainer {
+  height: 100%;
+}
+.heroLogo {
+  width: 100%;
+}
+
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.navCard {
+  background-color: white;
+  border-radius: 7% / 25%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  min-height: 80px;
+  box-shadow: 0px 3px 4px 1px rgb(164 164 164 / 20%),
+    0 2px 5px 0 rgb(242 242 242 / 20%);
+}
+.text {
+  max-width: 80%;
+}
+.arrow__div {
+  border: 1px solid;
+  justify-content: end;
+  height: 25px;
+  width: 30px;
+  text-align: center;
+  float: right;
+  border-radius: 50%;
+  /* margin-left: 20px; */
+}
+
+@media only screen and (max-width: 768) {
+  .heroLogo {
+    width: 80%;
+  }
+}
